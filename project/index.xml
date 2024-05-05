@@ -2,21 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | RahimMerchant.com</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1313/project/</link>
+      <atom:link href="//localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 31 May 2020 12:24:46 -0400</lastBuildDate>
     <image>
-      <url>/images/icon_huaf40cdf8f99b66f678e64c7a7de15065_12972_512x512_fill_lanczos_center_3.png</url>
+      <url>//localhost:1313/images/icon_huaf40cdf8f99b66f678e64c7a7de15065_12972_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
-      <link>/project/</link>
+      <link>//localhost:1313/project/</link>
     </image>
     
     <item>
       <title>My Project Name</title>
-      <link>/project/my-project-name/</link>
+      <link>//localhost:1313/project/my-project-name/</link>
       <pubDate>Sun, 31 May 2020 12:24:46 -0400</pubDate>
-      <guid>/project/my-project-name/</guid>
+      <guid>//localhost:1313/project/my-project-name/</guid>
+      <description>&lt;p&gt;test&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My Project Name</title>
+      <link>//localhost:1313/project/project2/</link>
+      <pubDate>Sun, 31 May 2020 12:24:46 -0400</pubDate>
+      <guid>//localhost:1313/project/project2/</guid>
       <description>&lt;p&gt;test&lt;/p&gt;
 </description>
     </item>
