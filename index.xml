@@ -6,6 +6,12 @@
       <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>RahimMerchant.com</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 31 May 2020 12:24:46 -0400</lastBuildDate>
+    <image>
+      <url>//localhost:1313/images/icon_huaf40cdf8f99b66f678e64c7a7de15065_12972_512x512_fill_lanczos_center_3.png</url>
+      <title>RahimMerchant.com</title>
+      <link>//localhost:1313/</link>
+    </image>
+    
     <item>
       <title>My Project Name</title>
       <link>//localhost:1313/project/my-project-name/</link>
@@ -30,24 +36,6 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/landing/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>//localhost:1313/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>//localhost:1313/privacy/</guid>
-      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>//localhost:1313/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>//localhost:1313/terms/</guid>
-      <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
-</description>
     </item>
     
     <item>
