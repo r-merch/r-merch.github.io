@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | RahimMerchant.com</title>
-    <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:37470/authors/</link>
+      <atom:link href="//localhost:37470/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/images/icon_huaf40cdf8f99b66f678e64c7a7de15065_12972_512x512_fill_lanczos_center_3.png</url>
+      <url>//localhost:37470/images/icon_huaf40cdf8f99b66f678e64c7a7de15065_12972_512x512_fill_lanczos_center_3.png</url>
       <title>Authors</title>
-      <link>/authors/</link>
+      <link>//localhost:37470/authors/</link>
     </image>
     
     <item>
       <title>Rahim Merchant, PharmD</title>
-      <link>/author/rahim-merchant-pharmd/</link>
+      <link>//localhost:37470/author/rahim-merchant-pharmd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/author/rahim-merchant-pharmd/</guid>
+      <guid>//localhost:37470/author/rahim-merchant-pharmd/</guid>
       <description>&lt;p&gt;Rahim Merchant is a residency-trained pharmacist specializing in healthcare informatics. He leads a team of informatics pharmacists and analysts in supporting clinical applications, pharmacy automation, and data analytics at OhioHealth. Rahim also serves as a preceptor to pharmacy students and residents, and additionally, supports directly supports a variety of high-impact healthcare-IT changes throughout the organization. Current projects include deployment of deployment of an automated dispensing cabinet (ADC) and central pharmacy automation systems, implementation of pharmacy inventory and compliance workflows, and integration of new care site EHR systems.&lt;/p&gt;
 &lt;p&gt;With a robust background in both clinical pharmacy practice and data analytics, Rahim has been successful in &amp;ldquo;bridging the gap&amp;rdquo; between clinicians and IT staff. Clinical interests include cardiology and infectious disease. Technical skills include SQL scripting, Epic Willow Inpatient build, Business Intelligence dashboard development (QlikSense), and use of Python for complex data manipulation.&lt;/p&gt;
 </description>
