@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en-us" >
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,7 +30,7 @@
   <meta name="description" content="Clinical Pharmacist Informaticist">
 
   
-  <link rel="alternate" hreflang="en-us" href="//localhost:1313/talk/">
+  <link rel="alternate" hreflang="en-us" href="/talk/">
 
   
 
@@ -203,6 +203,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168380562-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-168380562-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -217,7 +255,7 @@
   <link rel="icon" type="image/png" href="/images/icon_huaf40cdf8f99b66f678e64c7a7de15065_12972_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_huaf40cdf8f99b66f678e64c7a7de15065_12972_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="//localhost:1313/talk/">
+  <link rel="canonical" href="/talk/">
 
   
   
@@ -233,10 +271,10 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="RahimMerchant.com">
-  <meta property="og:url" content="//localhost:1313/talk/">
+  <meta property="og:url" content="/talk/">
   <meta property="og:title" content="Recent &amp; Upcoming Talks | RahimMerchant.com">
-  <meta property="og:description" content="Clinical Pharmacist Informaticist"><meta property="og:image" content="//localhost:1313/images/icon_huaf40cdf8f99b66f678e64c7a7de15065_12972_512x512_fill_lanczos_center_3.png">
-  <meta property="twitter:image" content="//localhost:1313/images/icon_huaf40cdf8f99b66f678e64c7a7de15065_12972_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Clinical Pharmacist Informaticist"><meta property="og:image" content="/images/icon_huaf40cdf8f99b66f678e64c7a7de15065_12972_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="/images/icon_huaf40cdf8f99b66f678e64c7a7de15065_12972_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
     
   
@@ -546,16 +584,6 @@
   
   <div class="container">
     <footer class="site-footer">
-  
-  <p class="powered-by">
-    
-      <a href="/privacy/">Privacy Policy</a>
-    
-    
-       &middot; 
-      <a href="/terms/">Terms</a>
-    
-  </p>
   
 
   <p class="powered-by">
