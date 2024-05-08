@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:37470/project/my-project-name/</loc>
+    <loc>/project/my-project-name/</loc>
     <lastmod>2020-05-31T12:24:46-04:00</lastmod>
   </url><url>
-    <loc>//localhost:37470/project/project2/</loc>
+    <loc>/project/project2/</loc>
     <lastmod>2020-05-31T12:24:46-04:00</lastmod>
   </url><url>
-    <loc>//localhost:37470/project/</loc>
+    <loc>/project/</loc>
     <lastmod>2020-05-31T12:24:46-04:00</lastmod>
   </url><url>
-    <loc>//localhost:37470/</loc>
+    <loc>/</loc>
     <lastmod>2020-05-31T12:24:46-04:00</lastmod>
   </url><url>
-    <loc>//localhost:37470/landing/</loc>
+    <loc>/landing/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:37470/authors/</loc>
+    <loc>/authors/</loc>
   </url><url>
-    <loc>//localhost:37470/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>//localhost:37470/post/</loc>
+    <loc>/post/</loc>
   </url><url>
-    <loc>//localhost:37470/publication_types/</loc>
+    <loc>/publication_types/</loc>
   </url><url>
-    <loc>//localhost:37470/publication/</loc>
+    <loc>/publication/</loc>
   </url><url>
-    <loc>//localhost:37470/author/rahim-merchant-pharmd/</loc>
+    <loc>/author/rahim-merchant-pharmd/</loc>
   </url><url>
-    <loc>//localhost:37470/author/rahim-merchant-pharmd/</loc>
+    <loc>/author/rahim-merchant-pharmd-cphims/</loc>
   </url><url>
-    <loc>//localhost:37470/talk/</loc>
+    <loc>/talk/</loc>
   </url><url>
-    <loc>//localhost:37470/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>
